@@ -1,0 +1,13 @@
+[package]
+name = "edge-translate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.22.1"
+serde = { version = "1.0.217", features = ["derive"] }
+serde_json = "1.0.138"
+ureq = { version = "3.0.5", features = ["json"] }
+
+[[example]]
+name = "hello"
